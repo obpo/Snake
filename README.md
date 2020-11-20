@@ -11,14 +11,14 @@ The file containing all functions that perform the operations
 
 In the beginning of the main file, you will find the constants:
 
-gridSize
-speed
-defaultDirection
-uKey
-dKey
-lKey
-rKey
-reset
+<p>gridSize</p>
+<p>speed</p>
+<p>defaultDirection</p>
+<p>uKey</p>
+<p>dKey</p>
+<p>lKey</p>
+<p>rKey</p>
+<p>reset</p>
 
 These are the only things that should be changed normally. They are explained how
 to use and what values are valid within the program.
