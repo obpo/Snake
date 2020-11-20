@@ -8,7 +8,7 @@ final int gridSize = int(pow(2, 5));
 // Constant that declares how often the snake is updated
 // It is inversly propotional to the speed of the snake (Higher value = Slower Snake)
 // Default value is 6, must not be 0
-final int SPEED = 6;
+final int speed = 6;
 
 // Set default direction to right
 // Possible directions [up, down, left, right]
@@ -47,7 +47,7 @@ void setup() {
 void draw() {
   // Update the snake every at the set speed interval
   // but only if the blayer is not dead
-  if (frameCount % SPEED  == 0 && !gameOver()){
+  if (frameCount % speed  == 0 && !gameOver()){
     moveSnake();
     
     // check if the snake died during movement
