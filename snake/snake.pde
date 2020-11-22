@@ -3,7 +3,7 @@
 
 // Size of all cells, the second parameter can be changed
 // Default value is 4, should not exceed 6, must not exceed 8
-final int gridSize = int(pow(2, 5));
+final int gridSize = int(pow(2, 4));
 
 // Constant that declares how often the snake is updated
 // It is inversly propotional to the speed of the snake (Higher value = Slower Snake)
