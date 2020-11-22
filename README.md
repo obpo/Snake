@@ -13,12 +13,13 @@ In the beginning of the main file, you will find the constants:
 
 <p>gridSize</p>
 <p>speed</p>
+
 <p>defaultDirection</p>
-<p>uKey</p>
-<p>dKey</p>
-<p>lKey</p>
-<p>rKey</p>
-<p>reset</p>
+<p>uKey  - W</p>
+<p>dKey  - S</p>
+<p>lKey  - A</p>
+<p>rKey  - D</p>
+<p>reset - R</p>
 
 These are the only things that should be changed normally. They are explained how
 to use and what values are valid within the program.
